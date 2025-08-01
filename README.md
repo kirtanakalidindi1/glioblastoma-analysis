@@ -19,12 +19,19 @@ Developed collaboratively at Columbia University for ECBME4060: Introduction to 
   - Leiden clustering and marker gene identification  
   - Differential gene expression (e.g. EGFR, PDGFRA, OLIG2, CRABP2)
 
-- **Tools & Libraries:**  
-  - Python, Scanpy, pandas, matplotlib, scipy  
-  - AnnData, seaborn, NumPy
+## 🔬 Key Findings
 
----
+- Identified distinct malignant subpopulations in both pediatric and adult GBM tumors.
+- Top overexpressed genes across clusters included **EGFR**, **PDGFRA**, **OLIG2**, **CRABP2**, **MEST**, and **TIMP1**.
+- Clusters corresponded with known tumor states and immune infiltration profiles.
+- Visualizations such as UMAP and violin plots highlighted the heterogeneity of GBM.
 
-## 📂 Project Structure
+## 📦 Setup Instructions
+
+> Requires Python 3.8+  
+> Recommended to use a virtual environment
+
+```bash
+pip install scanpy pandas matplotlib seaborn scipy anndata
 
 
